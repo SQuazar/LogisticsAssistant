@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/button_color_selector_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_base</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="button_dark" parent="button">
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:bottomLeftRadius">18dp</item>
+    </style>
+
+    <style name="input" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:background">@drawable/input</item>
+    </style>
+
+    <style name="login_input" parent="input">
+        <item name="android:background">@drawable/login_input</item>
+        <item name="hintTextColor">@color/middle_gray</item>
+    </style>
+
+    <style name="Widget" />
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="minWidth">48dp</item>
+        <item name="maxWidth">48dp</item>
+        <item name="minHeight">48dp</item>
+        <item name="maxHeight">48dp</item>
+    </style>
+</resources>

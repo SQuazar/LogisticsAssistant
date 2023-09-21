@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Logistics Assistant</string>
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Продолжить</string>
+    <string name="login_title">Помощник логиста</string>
+    <string name="welcome_header">Добро пожаловать в БИА.Помощник логиста</string>
+    <string name="welcome_footer">Введите свой номер для авторизации</string>
+    <string name="phone_hint">+7 (000) 0 00 – 00 – 00</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_sms_code">Введите код из смс</string>
+    <string name="code_sent">Код был отправлен на номер телефона %s</string>
+    <string name="go_back">Go Back</string>
+    <string name="code_hint">_ _ _ _ _</string>
+    <string name="resend_code_time">Выслать повторный код (%02d:%02d)</string>
+    <string name="resend_code"><u>Выслать повторный код</u></string>
+    <string name="menu_task_title">Задания</string>
+    <string name="menu_schedule_title">Графики</string>
+    <string name="menu_chat_title">Чат</string>
+    <string name="menu_profile_page">Профиль</string>
+    <string name="current_task">Текущее задание</string>
+    <string name="order_details">Детали заказа</string>
+    <string name="payment_options">Параметры по оплате</string>
+    <string name="view_details">Посмотреть детали</string>
+</resources>

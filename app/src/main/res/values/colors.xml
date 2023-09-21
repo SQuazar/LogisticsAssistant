@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#EAEEF4</color>
+    <color name="dark">#2B2D35</color>
+    <color name="dark_gray">#3C4049</color>
+    <color name="middle_gray">#B8C4DB</color>
+    <color name="button_primary_enabled">#2B2D35</color>
+    <color name="button_primary_hovered">#F0303F</color>
+    <color name="button_primary_pressed">#C71B29</color>
+    <color name="button_primary_selected">#F0303F</color>
+    <color name="button_primary_disabled">#EAEEF4</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="bia_gray_color_1">#7A7B85</color>
+    <color name="light_gray_blue">#F4F6F9</color>
+    <color name="red">#F0303F</color>
+</resources>

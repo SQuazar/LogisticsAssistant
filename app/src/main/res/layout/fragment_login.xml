@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.login.LoginFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_header"
+        android:fontFamily="@font/stolzl_regular"
+        android:textSize="22sp"
+        android:textColor="@color/dark"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_footer"
+        android:fontFamily="@font/stolzl_book"
+        android:textSize="14sp"
+        android:textColor="@color/dark_gray"
+        />
+
+    <EditText
+        android:id="@+id/loginPhoneNumber"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/stolzl_regular"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:autofillHints="phone"
+        android:hint="@string/phone_hint"
+        style="@style/login_input">
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:enabled="false"
+        android:text="@string/action_sign_in"
+        style="@style/button_dark" />
+
+</GridLayout>

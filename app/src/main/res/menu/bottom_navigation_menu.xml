@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tasks_page"
+        android:enabled="true"
+        android:title="@string/menu_task_title"
+        android:icon="@drawable/task_icon"/>
+    <item
+        android:id="@+id/schedule_page"
+        android:enabled="true"
+        android:title="@string/menu_schedule_title"
+        android:icon="@drawable/calendar_icon" />
+    <item
+        android:id="@+id/chat_page"
+        android:enabled="true"
+        android:title="@string/menu_chat_title"
+        android:icon="@drawable/chat_icon"/>
+    <item
+        android:id="@+id/profile_page"
+        android:enabled="true"
+        android:title="@string/menu_profile_page"
+        android:icon="@drawable/profile_icon"/>
+</menu>

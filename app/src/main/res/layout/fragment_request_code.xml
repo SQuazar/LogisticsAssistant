@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableRow>
+        <ImageView
+            android:id="@+id/codeRequestBackButton"
+            android:src="@drawable/arrow_left"
+            android:contentDescription="@string/go_back"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:text="@string/enter_sms_code"
+            android:fontFamily="@font/stolzl_regular"
+            android:textColor="@color/dark"
+            android:textSize="22sp"/>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/sentCodeText"
+        android:layout_marginTop="10dp"
+        android:text="@string/code_sent"
+        android:fontFamily="@font/stolzl_book"
+        android:textColor="@color/dark"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/codeInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        style="@style/login_input"
+        android:inputType="numberSigned"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/stolzl_regular"
+        android:textSize="14sp"
+        android:hint="@string/code_hint"
+        android:gravity="center"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/resendCodeTimer"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/resend_code_time"
+        android:fontFamily="@font/stolzl_book"
+        android:textColor="@color/middle_gray"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/codeResend"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/resend_code"
+        android:fontFamily="@font/stolzl_book"
+        android:textColor="@color/red"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:enabled="false"
+        android:text="@string/action_sign_in"
+        style="@style/button_dark" />
+</GridLayout>
